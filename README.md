@@ -16,5 +16,12 @@ Learn the basics of typescript with the help of youtube video tutorial.
 - Download and install nodejs.
 - Install typescript (Npm install -g typescript).
 - For type script version check Use the command ' tsc -v'.
+- To run ts file 'tsc filename'
+- To create js file for ts file run 'node filename'.
+- Change make sudden reflection into js file then use ' tsc main.ts --watch'
+
+## Variable declarations
+- use Let and Const keywords.
+
 
 
