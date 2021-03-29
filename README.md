@@ -22,6 +22,21 @@ Learn the basics of typescript with the help of youtube video tutorial.
 
 ## Variable declarations
 - use Let and Const keywords.
+- const type variables should be initialized.
+
+## Variable types.
+- types - Boolean, Number, String,enum, null and undefined.
+- eg.
+  `
+   let sample:Boolean = true;
+   `
+
+- Advantages :-
+  - Helps to reduce errors in our program with static type checking.
+  - Helps to intellisence(specific type related items only shown in suggection list).
+- Two syntaxes for declaring array type:-
+  - let id1:number[] = [1,2,3];
+  - let id2:Array<number> = [1,2,3];
 
 
 
