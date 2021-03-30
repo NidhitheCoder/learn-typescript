@@ -53,3 +53,5 @@ Learn the basics of typescript with the help of youtube video tutorial.
 - if you need to be a parameter optional then add a question mark(?) after the parameter name.  function add(num1:number,num2?:number):number
 - If you need to be a default value for a parameter then assign it  after the datatype of that parameter. function add(num1:number,num2:number=20):number
 
+Typescript with react referance : https://www.youtube.com/watch?v=Z5iWr6Srsj8
+
