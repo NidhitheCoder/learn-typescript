@@ -33,9 +33,10 @@ console.log("c is " + c + " ");
 var randomValue = 10;
 randomValue = "Help";
 randomValue = true;
-var myVariable = 20;
-myVariable();
-myVariable.toUpperCase();
+// let myVariable :any = 20;
+var myVariable = 10;
+// myVariable();
+// myVariable.toUpperCase();
 function hasName(obj) {
     return !!obj &&
         typeof obj === "object" &&
@@ -44,9 +45,22 @@ function hasName(obj) {
 if (hasName(myVariable)) {
     console.log("Myvariable ", myVariable);
 }
-myVariable.toUpperCase();
+// (myVariable as string).toUpperCase();
 // // unknown
 // let newVar:unknown = 10;
 // // newVar(); //trow error becouse of define as unknown datatype 
 // (newVar as string).toUpperCase();
-// console.log()
+// console.log();
+// Type inferance
+var a;
+a = 10;
+a = true;
+var b = 20;
+// b = true; it shown an error like  cannot assing boolean value to a number.
+// union of types 
+var multiType;
+multiType = 20;
+multiType = true;
+var anyType;
+anyType = 20;
+anyType = true;

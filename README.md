@@ -37,6 +37,8 @@ Learn the basics of typescript with the help of youtube video tutorial.
 - Two syntaxes for declaring array type:-
   - let id1:number[] = [1,2,3];
   - let id2:Array<number> = [1,2,3];
+- Type inference
+- Union of type of same variable(provide intellisence and restrict to that specified datatypes).
 
 
 
