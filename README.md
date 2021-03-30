@@ -16,5 +16,29 @@ Learn the basics of typescript with the help of youtube video tutorial.
 - Download and install nodejs.
 - Install typescript (Npm install -g typescript).
 - For type script version check Use the command ' tsc -v'.
+- To run ts file 'tsc filename'
+- To create js file for ts file run 'node filename'.
+- Change make sudden reflection into js file then use ' tsc main.ts --watch'
+
+## Variable declarations
+- use Let and Const keywords.
+- const type variables should be initialized.
+
+## Variable types.
+- types - Boolean, Number, String,enum, null and undefined.
+- eg.
+  `
+   let sample:Boolean = true;
+   `
+
+- Advantages :-
+  - Helps to reduce errors in our program with static type checking.
+  - Helps to intellisence(specific type related items only shown in suggection list).
+- Two syntaxes for declaring array type:-
+  - let id1:number[] = [1,2,3];
+  - let id2:Array<number> = [1,2,3];
+- Type inference
+- Union of type of same variable(provide intellisence and restrict to that specified datatypes).
+
 
 
