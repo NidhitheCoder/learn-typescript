@@ -40,5 +40,16 @@ Learn the basics of typescript with the help of youtube video tutorial.
 - Type inference
 - Union of type of same variable(provide intellisence and restrict to that specified datatypes).
 
+## funcitons in typescript
+- we can specify the parameters datatype and return datatype with the function definition.
+  - eg  
+   `typescript
+    function add(num1:number,num2:number):number {
+    return num1 + num2;
+    `
+  }
 
+- Optional parameter and default parameters.
+- if you need to be a parameter optional then add a question mark(?) after the parameter name.  function add(num1:number,num2?:number):number
+- If you need to be a default value for a parameter then assign it  after the datatype of that parameter. function add(num1:number,num2:number=20):number
 
